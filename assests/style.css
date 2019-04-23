@@ -1,7 +1,7 @@
 body {
     overflow-x: hidden;
     font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
-    color: slategrey;
+    
 
 }
 
@@ -11,23 +11,42 @@ body {
     font-weight: 700;
     font-size: .9rem;
     letter-spacing: .1rem;
-    background: black !important;
+    background:rgba(0, 0, 0, .3)!important;
 
 }
 .navbar-brand img {
-    height: 2rem;
+    height: 3rem;
+    color: white;
+}
+.navbar-brand  {
+    color: white;
+    
 }
 
 .navbar-nav li{
     padding-right: .7rem;
 }
 
-.navbar-dark .navbar-nav .navbar-link {
+.navbar-light .navbar-nav .navbar-link {
 color: white;
 padding-top: .8rem;
 }
 
-.navbar-dark .navbar-nav .navbar-link.active,
-.navbar-dark .navbar-nav .navbar-link:hover{
-color: skyblue
+/* Slider */
+.carousel-item {
+    height: 100vh;
 }
+
+/* Github */
+.narrow {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+  }
+  .btn-md {
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.1rem;
+    text-transform: uppercase;
+    margin: 1rem;
+  }
