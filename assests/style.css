@@ -1,8 +1,13 @@
+/* General */
 body {
     overflow-x: hidden;
     font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
-    
-
+}
+.offset:before {
+    height: 4rem;
+    margin-top: -4rem;
+    content: "";
+    display: block;
 }
 
 /* NavBar */
@@ -37,6 +42,34 @@ padding-top: .8rem;
     height: 100vh;
 }
 
+.carousel-caption {
+    position: absolute;
+    top:38%;
+    text-transform: uppercase;
+    width: 100%;
+    right:0;
+    left: 0;
+}
+
+.carousel-caption h1 {
+font-size: 4rem;
+font-weight: 700;
+text-shadow: .1rem .1rem .5rem black;
+padding-bottom: 1rem;
+
+}
+.carousel-caption h3 {
+padding-bottom: 1rem;
+text-shadow: .1rem .1rem .5rem black;
+font-size: 2rem;
+}
+.btn-lg {
+border-width: medium;
+font-size: 1rem;
+}
+
+
+
 /* Github */
 .narrow {
     width: 75%;
@@ -51,5 +84,29 @@ padding-top: .8rem;
     margin: 1rem;
   }
 
-  /* About Cards */
+  
 
+  /* About */
+
+
+  /* Portfolio */
+
+.jumbotron {
+    border-radius: 0;
+    padding: 3rem 0 2rem;  
+}
+
+h3.heading {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
+.heading-underline {
+    width: 3rem;
+    height: .5rem;
+    background-color: black;
+    margin: 0 auto 2rem;
+}
+
+  /* Footer */
