@@ -5,7 +5,7 @@ body {
 }
 .offset:before {
     height: 4rem;
-    margin-top: -4rem;
+    margin-top: 4rem;
     content: "";
     display: block;
 }
@@ -90,6 +90,9 @@ font-size: 1rem;
 
 
   /* Portfolio */
+.portfolio {
+    overflow: hidden;
+  }
 
 .jumbotron {
     border-radius: 0;
@@ -108,5 +111,18 @@ h3.heading {
     background-color: black;
     margin: 0 auto 2rem;
 }
+.portfolio-img {
+    max-width: 100%;
+    transition: .5s ease;
+    max-height: 100%;
+}
 
+.row.no-padding [class*=col-] {
+    padding: 0;
+}
+
+.portfolio img:hover {
+    transform: scale(1.1);
+
+}
   /* Footer */
