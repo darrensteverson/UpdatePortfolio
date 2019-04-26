@@ -84,10 +84,9 @@ font-size: 1rem;
     margin: 1rem;
   }
 
-  
 
   /* About */
-
+  
 
   /* Portfolio */
 .portfolio {
@@ -97,6 +96,7 @@ font-size: 1rem;
 .jumbotron {
     border-radius: 0;
     padding: 3rem 0 2rem;  
+    background-color: lightgray;
 }
 
 h3.heading {
@@ -110,6 +110,11 @@ h3.heading {
     height: .5rem;
     background-color: black;
     margin: 0 auto 2rem;
+}
+
+.portfolio {
+    width: auto;
+    padding:0;
 }
 .portfolio-img {
     max-width: 100%;
@@ -125,4 +130,22 @@ h3.heading {
     transform: scale(1.1);
 
 }
-  /* Footer */
+/* Contact */
+footer {
+    background-color: lightgray;
+    padding-top: 2rem;
+    margin-top: 1rem;
+    padding-bottom: 3rem;
+    color: black;
+
+}
+.footerImage{
+    height:5rem;
+    margin: 1rem 0;
+}
+
+footer a{
+    color: black;
+}
+
+
